@@ -1,0 +1,36 @@
+/* estilos cuarta section imagenes de referencia*/
+
+.what-we-do{
+
+&__list {
+    display: flex;
+    gap: 30px;
+}
+
+&__item {
+    background-color: #212121;
+    position: relative;
+    width: 370px;
+    height: 294px;
+}
+
+&__item-text {
+    width: 370px;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+
+    background: rgba(47, 48, 58, 0.8);
+    padding: 23px 70px;
+    color: white;
+    text-align: center;
+}
+&__title {
+    display: flex;
+    justify-content: center;
+    font-size: 36;
+    line-height: 42px;
+    font-weight: 700;
+    color: $main--secundario;
+}
+}

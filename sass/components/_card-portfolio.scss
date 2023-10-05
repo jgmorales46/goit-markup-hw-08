@@ -1,0 +1,60 @@
+/*____________estilod portafolio imagenes__________________________________________________*/
+
+.card{
+    
+    &__portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+  
+  }
+
+   &__portfolio-item {
+      width: 375px;
+      flex-basis: calc((100% - 60px) / 3);
+      background-color: rgb(255, 255, 255);
+      border: 1px solid rgb(238, 238, 238);
+      border-radius: 4px;
+      transition: color 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+            &:hover {
+                box-shadow: 4px 6px 0px rgba(0, 0, 0, 0.16),
+                    0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+            }
+  }
+
+  &__portfolio-title {
+      padding-left: 25px;
+      color: $main--secundario;
+      font-family: Roboto;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 30px;
+      /* 200% */
+      letter-spacing: 1.08px;
+  }
+
+  &__portfolio-paragraph {
+      padding-left: 25px;
+      color: $main--textSecundario;
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 400;
+      /* 187.5% */
+      letter-spacing: 0.48px;
+      line-height: 30px;
+  }
+
+ 
+
+
+}
+
+
+
+
+
+
+
+

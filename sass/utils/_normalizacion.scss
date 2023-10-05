@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+    font-family: "Open Sans", "Roboto", sans-serif;
+}
+
+/* estilos generales   */
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.list {
+    margin: 0;
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.current {
+    display: inline-block;
+    height: 100%;
+    position: relative;
+    padding: 25px 0;
+    outline: none;
+}
+
+.current:focus::after,
+.current:focus-within::after,
+.current:focus-visible::after,
+.current:hover::after,
+.current:active::after {
+    display: inline-block;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 5px;
+    background-color: var(--main--primaryColor);
+    left: 0;
+    bottom: -25px;
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.m-0 {
+    margin: 0%;
+}
+
+.pv-main {
+    padding: 40px 0;
+}
+
+body {
+    font-family: "Roboto", "Releway", sans-serif;
+    background: var(--main--textColor);
+    line-height: 1.5;
+    /* position: relative; */
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.webstudio {
+
+    color: $main--primaryColor;
+    font-size: 26px;
+    line-height: 31px;
+    font-weight: 700;
+    margin-right: 30px;
+
+    font-family: Raleway;
+
+
+    font-weight: 700;
+
+    letter-spacing: 0.78px;
+}
+
+.header_portfolio.current {
+    color: $main--primaryColor;
+}
+
+.box__header a {
+    color: $main--textSecundario;
+}
+
+hr {
+    width: 1600px;
+    height: 1px;
+    background-image: url(../images/Línea.jpg);
+    margin-top: -1px;
+}

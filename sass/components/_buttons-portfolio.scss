@@ -1,0 +1,13 @@
+.button{
+    
+    &__list {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    }
+   
+    &__portfolio {
+            padding-top: 90px;
+        }
+}
+

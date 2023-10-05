@@ -1,0 +1,38 @@
+/*estilos tercera seccion*/
+
+.about{
+
+&__list {
+    display: flex;
+    gap: 30px;
+
+}
+&__container {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    border-radius: 4px;
+    padding-left: 100px;
+    width: 270px;
+    height: 120px;
+    background: var(--main--color--fondo--logos);
+}
+
+&__svg {
+    width: 70px;
+    height: 70px;
+}
+&__text {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 700;
+    color: var(--main--secundario);
+}
+
+&__paragraph {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: var(--main--textSecundario);
+}
+}

@@ -1,0 +1,116 @@
+  header a {
+      color: $main--secundario;
+
+      font-size: 14px;
+      line-height: 16px;
+      font-weight: 500;
+  }
+
+
+.header{
+
+    &__navegation {
+    display: flex;
+    justify-content: space-between;
+}
+   &__list-menu {
+    display: flex;
+    column-gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    transition: color 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+    & a:hover {
+           color: $main--primaryColor;
+        }
+}
+
+&__link {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    padding: 10px;
+}
+
+
+}
+
+
+
+
+.header{
+
+    &__list-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 16px;
+}
+
+     &__item-contact .email {
+    fill: #757575;
+    margin-right: 10px;
+    transition: color 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+&__item-contact .telefono {
+    fill: #757575;
+    margin-right: 10px;
+    transition: color 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+&__menu.current {
+    color: $main--primaryColor;
+}
+}
+
+
+
+/******************************************************************************************************/
+
+/* estilos para svg email y texto email:hover*/
+
+
+.header__item-contact:hover>.icon,
+.header__item-contact:focus>.icon,
+.header__item-contact:focus-within>.icon {
+    color: $main--primaryColor;
+}
+
+.header__item-contact:hover .email,
+.header__item-contact:focus .email,
+.header__item-contact:focus-within .email {
+    fill: $main--primaryColor;
+}
+
+/* estilos para svg telefono y texto telefono:hover*/
+
+
+.header__item-contact:hover>.icon,
+.header__item-contact:focus>.icon,
+.header__item-contact:focus-within>.icon {
+    color: $main--primaryColor;
+}
+
+.header__item-contact:hover .telefono,
+.header__item-contact:focus .telefono,
+.header__item-contact:focus-within .telefono {
+    fill: $main--primaryColor;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

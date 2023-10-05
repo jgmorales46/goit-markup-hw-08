@@ -1,0 +1,37 @@
+/***********************************overlay******/
+
+.card{
+    
+    &__portfolio-box {
+    position: relative;
+
+    overflow: hidden;
+}
+
+
+}
+.card__portfolio-box:hover .overlay {
+    transform: translatex(0);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    padding: 63px 24px;
+    text-align: center;
+    height: 100%;
+    background: $main--primaryColor;
+    transform: translatey(110%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+        & code {
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 28px;
+            letter-spacing: 0.03em;
+            color: $main--textColor;
+        }
+}
+
