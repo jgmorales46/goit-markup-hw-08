@@ -17,7 +17,9 @@
 }
 
 &__container {
-    @include flexible;
+
+   @include flexible;
+
 }
 
 &__text {
