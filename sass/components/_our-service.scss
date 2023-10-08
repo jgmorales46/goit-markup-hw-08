@@ -17,9 +17,7 @@
 }
 
 &__container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flexible;
 }
 
 &__text {

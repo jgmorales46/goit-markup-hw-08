@@ -14,19 +14,16 @@ background: $main--backgraundSecundario;
 
 
     &__container-list {
-        display: flex;
-        align-items: center;
-        align-content: center;
+        @include flexible;
         gap: 10px;
         width: 100%;
     }
 
     &__container-item {
+        @include flexible;
         width: 44px;
         height: 44px;
-        display: flex;
-        align-items: center;
-        align-content: center;
+        
         border-radius: 50%;
 
         &:hover .footer__container-svg,
@@ -50,9 +47,7 @@ background: $main--backgraundSecundario;
         border-radius: 50%;
         width: 44px;
         height: 44px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flexible;
         fill: white;
         transition: color 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
 

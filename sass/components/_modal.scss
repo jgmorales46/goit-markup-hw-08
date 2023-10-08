@@ -163,9 +163,8 @@
         }
 
                 &__tyc {
-                    display: flex;
-                    justify-content: center;
-                    align-items: flex-start;
+                   
+                    @include flexible;
                     margin-top: 20px;
                     margin-left: 12px;
                 }
@@ -199,9 +198,8 @@
 }
 
 &__button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flexible;
+   
     margin-left: auto;
     margin-right: auto;
     margin-top: 5px;

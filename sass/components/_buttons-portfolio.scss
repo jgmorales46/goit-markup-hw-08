@@ -1,9 +1,10 @@
 .button{
     
     &__list {
-    display: flex;
+   
     gap: 15px;
-    justify-content: center;
+    
+    @include flexible;
     }
    
     &__portfolio {

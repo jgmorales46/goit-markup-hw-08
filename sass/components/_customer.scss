@@ -13,9 +13,8 @@
 }
 
 &__container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    
+    @include flexible;
 }
 
 
@@ -30,9 +29,8 @@
 /* para revisar esta parte del codigo logos empresas que trabajan con nosotros ----------------------*/
 
 &__item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+   
+    @include flexible;
     flex-wrap: wrap;
     cursor: pointer;
     height: 92px;

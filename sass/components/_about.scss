@@ -8,9 +8,8 @@
 
 }
 &__container {
-    display: flex;
-    align-content: center;
-    align-items: center;
+  
+    @include flexible;
     border-radius: 4px;
     padding-left: 100px;
     width: 270px;
